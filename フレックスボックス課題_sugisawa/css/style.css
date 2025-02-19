@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* ヘッダー箇所 */
+.header_wrap{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    box-sizing: border-box;
+}
+.header_nav ul{
+    display: flex;
+}
+.header_nav ul li{
+    padding: 5px 30px;
+    font-size: 12px;
+    border-right: 1px solid #4c4c4c;
+}
+.header_nav ul li:last-child{
+    border-right: none;
+}
+/* レスポンシブ対応 */
+@media screen and (max-width:767px) {
+
+ul,li{
+    width: 60%;
+    margin: 0; 
+    padding: 0; 
+    flex-direction: column;
+}
+.header_wrap{ 
+    flex-direction: column; 
+    display: block;
+}
+.header_nav ul li{
+    border-bottom: 1px solid #4c4c4c;
+}
+
+}
+
+/* 質問です。
+１、サービスや講師一覧の部分がどうしても左寄りにならないのはなぜですか？
+２、右の線が消えないのはなぜですか？
+他にもおかしいところ沢山あると思いますが、添削宜しくお願い致します。 */
