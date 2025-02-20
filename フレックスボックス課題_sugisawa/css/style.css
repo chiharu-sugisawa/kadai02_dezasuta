@@ -14,7 +14,7 @@
 }
 .header_nav ul li{
     padding: 5px 30px;
-    font-size: 12px;
+    font-size: 15px;
     border-right: 1px solid #4c4c4c;
 }
 .header_nav ul li:last-child{
@@ -24,7 +24,7 @@
 @media screen and (max-width:767px) {
 
 ul,li{
-    width: 60%;
+    width: 95%;
     margin: 0; 
     padding: 0; 
     flex-direction: column;
@@ -35,11 +35,9 @@ ul,li{
 }
 .header_nav ul li{
     border-bottom: 1px solid #4c4c4c;
+    border-right: none;
+    padding-left: 0px;
 }
 
 }
 
-/* 質問です。
-１、サービスや講師一覧の部分がどうしても左寄りにならないのはなぜですか？
-２、右の線が消えないのはなぜですか？
-他にもおかしいところ沢山あると思いますが、添削宜しくお願い致します。 */
